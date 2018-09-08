@@ -1,0 +1,74 @@
+﻿1. #### Básico ####
+
+1.1. Estrutura básica de uma aplicação C# (using, namespace) Console/Web
+
+1.2. Tipos de dados e aliases (Int32, int, String, string, Enum, etc)
+
+2. #### Intermediário ####
+
+2.1. Classes, Struct e modificadores de acesso
+	- Classes
+	- Estruturas
+	- Modificadores de Acesso (public, private, internal, sealed, protected, static, virtual, override, new, etc)
+
+2.2. Utilização de Delegates e Eventos
+	- Delegations (ponteiro de função)
+	- Eventos
+	- Atalhos via Lambda
+
+2.3. Implementação de propriedades e indexadores
+
+2.4. Implementação de novos Operadores (Operators, Monads)
+
+2.5. Conversão e Casting entre tipos de objeto e Generics
+	- Boxed/Unboxed
+	- Implicit operators/conversions/castings
+	- Utilização e implementação de classes e métodos genéricos
+	- Diferença entre casting e conversão (as, is, Convert.To*, (Type))
+
+2.6. Aplicação da orientação a objeto com C# (Herança, Polimorfismo, Interfaces, etc)
+	- Herança 
+	- Polimorfismo 
+	- Interfaces
+
+2.7. Criação, iniciação e destruição de objetos em C# (constructors, destructors, IDisposable, etc)
+
+2.8. Tratamento de Exceções
+	- Try/Catch
+	- Criação de tipo próprio de exceção (por que isso é útil)
+
+2.9. Membros de Classe: Subclasses, Propriedades, Métodos e Eventos
+	- Passagem de parâmetros por valor (ByVal)
+	- Passagem de parâmetros por referência (ByRef)
+	- Parâmetros opcionais (.Net Framework 4.0)
+
+2.10. Utilizando Lambda Expressions e LINQ
+
+2.11. Criação e utilização de Atributos
+
+3. #### Avançado ####
+
+3.1. Implementando e utilizando IEnumerable
+	- Utilizando yield (um atalho para criação de um IEnumerable lazy/async)
+	- Utilizando Threads e Tasks
+	- async/await
+
+3.2. O que é, como e quando utilizar Reflection (ex: MEF)
+
+3.3. O que é, como e quando utilizar Extension Methods (a performance é muito afetada?)
+
+3.4. Melhores práticas e Code Analysis
+
+4. #### Arquitetura Web ####
+
+4.1. Padrões de design - Patterns em geral.
+
+4.2. Evolução (WebForms - MVC - SPA - Micro Serviços).
+
+4.3. Arquitetura de Aplicação (Monolítica..)
+
+4.4. Evolução dos Frameworks Web - JavaScript / Jquery / Angular / React / Vue...
+
+5. #### Arquitetura de Projeto ####
+
+5.1. TDD - DDD - BDD

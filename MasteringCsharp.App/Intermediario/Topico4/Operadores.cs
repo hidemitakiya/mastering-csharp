@@ -2,8 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mastering.Csharp.App
+namespace MasteringCsharp.App.Intermediario.Topico4
 {
+    /// <summary>
+    /// Intermediario - 2.4. Implementação de novos Operadores (Operators, Monads)
+    /// </summary>
+    public class Operadores
+    {
+    }
+
+    #region [ Classes para exemplificar ]
     public class Produto
     {
         public int Codigo { get; set; }
@@ -26,4 +34,5 @@ namespace Mastering.Csharp.App
             return new ProdutoRelatorio() { Preco = item1.Preco + item2.Preco };
         }
     }
+    #endregion [ Classes para exemplificar ]
 }

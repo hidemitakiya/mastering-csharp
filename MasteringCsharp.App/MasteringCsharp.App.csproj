@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Avancado\" />
+    <Compile Remove="Avancado\**" />
+    <EmbeddedResource Remove="Avancado\**" />
+    <None Remove="Avancado\**" />
   </ItemGroup>
 
 </Project>

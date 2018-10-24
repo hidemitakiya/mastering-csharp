@@ -1,6 +1,7 @@
 ﻿using MasteringCsharp.App.Basico;
 using MasteringCsharp.App.Intermediario.Topico4;
 using System;
+using System.Globalization;
 
 namespace MasteringCsharp.App
 {
@@ -8,6 +9,32 @@ namespace MasteringCsharp.App
     {
         static void Main(string[] args)
         {
+            System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pt-BR");
+
+            //DateTime data;
+            //Console.WriteLine(DateTime.TryParse("22/01/2018", out data));
+
+            //Console.ReadKey();
+
+            //Console.WriteLine(CultureInfo.GetCultureInfo(1046).NumberFormat.CurrencySymbol);
+            //double mo1 = 12331.80;
+            //Console.WriteLine(mo1.ToString("n3"));
+
+            //System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(13322);
+            //double mo2 = 12331.0;
+
+            //Console.WriteLine(mo2.ToString("n3"));
+            //Console.WriteLine(mo2.ToString("N3"));
+            //Console.WriteLine(CultureInfo.GetCultureInfo(13322).NumberFormat.CurrencySymbol);
+            //Console.WriteLine(CultureInfo.GetCultureInfo(13322).NumberFormat.CurrencyDecimalSeparator);
+
+            // É esse
+            Console.WriteLine(CultureInfo.GetCultureInfo(1046).TextInfo.ToTitleCase(CultureInfo.GetCultureInfo(1046).NativeName));
+            Console.WriteLine(CultureInfo.GetCultureInfo(1046).TextInfo.ToTitleCase(CultureInfo.GetCultureInfo(13322).NativeName));
+
+            Console.ReadKey();
+
             //TiposDados.ImprimirTipos();
             TiposDeDados.ImprimirHerancas();
 
